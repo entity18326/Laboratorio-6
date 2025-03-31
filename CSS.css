@@ -7,3 +7,33 @@ p {
 .imagen p {
   text-align: center;
 }
+
+header {
+  background-color: #b9e0ff;
+  height: 80px;
+  width: 100%;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  height: 100%;
+}
+
+.menu {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  padding: 0;
+  margin: 10px;
+  gap: 20px; 
+}
+
+.menu li {
+  margin: 0 15px;
+}
+
+
